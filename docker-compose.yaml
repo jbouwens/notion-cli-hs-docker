@@ -1,0 +1,13 @@
+version: '3.9'
+services:
+  notion-cli-hs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./config:/root
+      - ./data:/data
+    environment:
+      - PATH=/usr/local/bin:$PATH
+      - USER_TIME_ZONE=Asia/Tokyo
+    command: /bin/sh
