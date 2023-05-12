@@ -1,4 +1,3 @@
-\`\`\`
 # Notion CLI Dockerized
 
 This repository contains a Dockerized version of the Notion CLI, designed to interact with the Notion API.
